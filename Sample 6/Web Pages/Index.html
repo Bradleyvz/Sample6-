@@ -14,7 +14,7 @@
     <!--Font Awesome CDN--->
     <script src="https://kit.fontawesome.com/271af411b6.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-spy="scroll" data--target=".navbar" data-offset="50">
     <!--Navigation Bar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -26,7 +26,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -87,7 +87,7 @@
                 <div class="col-sm-4">
                     <div class="placeBox">
                         <div class="imgBox">
-                            <img src="../Web Pages/Resources/Images/Nature1.jpg" class="img-fluid" />
+                            <img src="../Web Pages/Resources/Images/Nature3.jpg" class="img-fluid" />
                         </div>
                         <div class="content">
                             <h3>Place Name<br /><span>Country Name</span></h3>
@@ -123,7 +123,7 @@
     <section class="sec2" id="adventure">
         <div class="container h100">
             <div class="containerBox h100">
-                <h1>Adventure is Everywhere</h1>
+                <h2>Adventure is Everywhere</h2>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
                 It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
@@ -135,11 +135,11 @@
         </div>
     </section>
     <!--Section 3 Blog -->
-    <section class="sec3" id="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="row">
                 <div class="offset-sm-2 col-sm-8">
-                    <div class="heaerText">
+                    <div class="heaerText text-center">
                         <h2>Our Latest Post</h2>
                         <p>There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration in some form, by injected humour,
@@ -169,6 +169,9 @@
                                 ut semper tellus imperdiet. Etiam varius, turpis non auctor eleifend,
                                 sem eros consequat sapien, et pretium nisi diam vitae dolor
                             </p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </div>
@@ -188,6 +191,9 @@
                                 ut semper tellus imperdiet. Etiam varius, turpis non auctor eleifend,
                                 sem eros consequat sapien, et pretium nisi diam vitae dolor
                             </p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </div>
@@ -207,6 +213,9 @@
                                 ut semper tellus imperdiet. Etiam varius, turpis non auctor eleifend,
                                 sem eros consequat sapien, et pretium nisi diam vitae dolor
                             </p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </div>
@@ -226,6 +235,9 @@
                                 ut semper tellus imperdiet. Etiam varius, turpis non auctor eleifend,
                                 sem eros consequat sapien, et pretium nisi diam vitae dolor
                             </p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </div>
@@ -233,7 +245,7 @@
         </div>
     </section>
     <!--Section 4 Contact Form-->
-    <section class="sec4" id="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -242,7 +254,10 @@
                             <h2>Contact Us</h2>
                             <p>
                                 Proin semper sit amet odio ac aliquet. Pellentesque scelerisque lacus quis risus
-                            </p>    
+                            </p>
+                            <!--<a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>-->
+                       
                         </div>
                     </div>
                 </div>
@@ -267,7 +282,7 @@
                             <label>Message</label>
                             <textarea class=" form-control textarea" name=""></textarea>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-center">
                          <buttom class="btn btnD1">Submit</buttom>
                         </div>
                     </form>
@@ -294,14 +309,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
 
 
     <!--Bootstrap Javascript Files-->
