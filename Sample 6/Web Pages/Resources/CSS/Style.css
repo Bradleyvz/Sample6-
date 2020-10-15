@@ -151,7 +151,7 @@ transition:1s;
         {
             position:relative;
             max-width:300px;
-            height:400px;
+            height:100%;
             margin:0 auto;
             background:#000;
             margin-top:30px;
@@ -176,7 +176,8 @@ transition:1s;
                 width: 100%;
                 height: 100%;
                 display: flex;
-                justify-content:center !important;
+                 justify-content:baseline !important;
+                justify-content: flex-end;
                 align-items: flex-end;
             }
 
@@ -185,7 +186,7 @@ transition:1s;
             position:relative;
             margin:0;
             padding:10px;
-            background:rgba(0,0,0,.95);
+            background:#000;
             color:#fff;
             font-size:20px;
             font-weight:600;
@@ -216,7 +217,7 @@ transition:1s;
             border:2px solid #fff;
             color:#000;
             background:#fff;
-            border-raduis:50px;
+            border-radius:50px;
             padding:15px 50px;
             font-size:1.15rem;
             outline:none;
@@ -266,7 +267,7 @@ transition:1s;
 .btnD2 :hover{
     background: #262626;
     color: #fff;
-    border-raduis: 30px;
+    border-radius: 30px;
     padding: 10px 20px;
     float: right;
 }
@@ -294,7 +295,7 @@ background:transparent;
 border:none;
 border-bottom:2px solid rgba(255,255,255,.2);
 height:50px;
-border-raduis:0;
+border-radius:0;
 background:rgba(0,0,0,.6);
 color:#fff;
 font-size:1.25rem;
